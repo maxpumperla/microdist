@@ -2,9 +2,12 @@
 
 **Note: this is still WIP, don't expect anything just yet.**
 
-![look at those eyes](ray_puppy.jpg)
 
-microdist is a tiny distributed deep learning framework.
+![look at those eyes](ray_puppy.png)
+*The tiny dog from micrograd, combined with Ray, makes up the mascot for microdist.*
+
+microdist is a tiny distributed deep learning framework (with a bite, and a stare).
+
 
 It slightly modifies the ~150 lines of code of [micrograd](https://github.com/karpathy/micrograd),
 by keeping the core engine untouched, and adding another ~100 LOC to the neural network layer
