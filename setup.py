@@ -4,14 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="micrograd",
+    name="microdist",
     version="0.1.0",
-    author="Andrej Karpathy",
-    author_email="andrej.karpathy@gmail.com",
-    description="A tiny scalar-valued autograd engine with a small PyTorch-like neural network library on top.",
+    author="Max Pumperla",
+    author_email="max.pumperla@gmail.com",
+    install_requires=["ray"],
+    description="The tiniest distributed neural network library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/karpathy/micrograd",
+    url="https://github.com/maxpumperla/microdist",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
